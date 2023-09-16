@@ -1,0 +1,12 @@
+   0 mkdir -p  /home/animals /home/planets /home/humans
+   1 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fish
+   2 touch /home/animals/dogs/pluto /home/animals/cats/garfield /home/animals/fish/nemo /opt/Mercury /opt/Venus opt/Mars /opt/Jupiter /tmp/adam /tmp/evA
+   3 touch /opt/Mars
+   4 mv /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter /home/planets
+   5 cp -r /tmp/adam /home/humans
+   6 mv /tmp/evA /opt/eve
+   7 mv /opt/eve home/humans
+   8 mv /opt/eve /home/humans
+   9 tree /home
+  10 export_file homework07.09
+  11 history > history_7.09.txt
