@@ -1,0 +1,15 @@
+   0 mkdir -p /home/user /opt/task /tmp/testnew
+   1 echo "Start" > /home/user/start.txt
+   2 cd /home/user
+   3 date >> start.txt
+   4 cp /home/user/start.txt /opt/task.start.txt
+   5 cd /opt/task
+   6 ls -a / | tail -4 >> /opt/task/start.txt
+   7 cp -a /opt/task /tmp/tetnew
+   8 cd /opt
+   9 rm /opt/task
+  10 rm -f /task
+  11 history > history_14.09.txt
+
+
+P.s. пункт 7 почему-то никак не получается
