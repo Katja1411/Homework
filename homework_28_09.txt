@@ -1,4 +1,4 @@
-  0 nano script.sh
+   0 nano script.sh
    1 chmod 744 script.sh
    2 ./script.sh
    3 cd /home/katja/null/
@@ -30,4 +30,3 @@ mv /home/katja/test/output.txt /home/katja/tmp/done.txt
  
 echo "DONE"
  
-
