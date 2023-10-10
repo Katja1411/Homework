@@ -1,0 +1,33 @@
+  0 nano script.sh
+   1 chmod 744 script.sh
+   2 ./script.sh
+   3 cd /home/katja/null/
+   4 ls
+   5 cd /home/katja/tmp/
+   6 ls
+   7 history > homework_28_09.txt
+
+
+script.sh
+
+#!/bin/bash
+mkdir -p /home/katja/test/ /home/katja/tmp  /home/katja/null
+ls -la /bin | head -10 > /home/katja/test/output.txt
+ 
+        for run in {b..f}
+        do
+        touch /home/katja/tmp/$run.txt
+        done
+ 
+df -h | head -2 | tail -1 | awk '{print$5}' >> /home/katja/tmp/f.txt
+ 
+mv /home/katja/tmp/b.txt /home/katja/null
+mv /home/katja/tmp/c.txt /home/katja/null
+mv /home/katja/tmp/d.txt /home/katja/null
+mv /home/katja/tmp/e.txt /home/katja/null
+ 
+mv /home/katja/test/output.txt /home/katja/tmp/done.txt
+ 
+echo "DONE"
+ 
+
